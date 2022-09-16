@@ -14,6 +14,10 @@ likeRoutes.get('/.well-known/pki-validation/5B91C5F3E94FC272B2C69B22977F3A53.txt
     res.sendFile(path.join(__dirname+'/a.html'));
 })
 
+likeRoutes.get('/like',(req,res)=>{
+    res.json("Like SECTION")
+})
+
 ///////////////////////////////////////////////////////////////////
 ////////  CLICK SUR LE BUTTON LIKE
 ///////////////////////////////////////////////////////////////////
